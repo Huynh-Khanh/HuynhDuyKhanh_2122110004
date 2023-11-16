@@ -1,0 +1,27 @@
+{
+    "name": "huynhduykhanh/shop_thoi_trang",
+    "description": "Học Tập Và Lập Trình website",
+    "authors": 
+    [
+        {
+            "name": "Huynh Duy Khanh",
+            "email": "huynhkhanh23122003@gmail.com"
+        }
+    ],
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\":"app/"
+        },
+        "files":
+        [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require":{
+        "illuminate/database": "^10.28",
+        "illuminate/events": "^10.26"
+    }
+}
